@@ -162,4 +162,65 @@ footer {
 }
 
 
-  
+  /* CSS for Personal Portfolio Template with Styled Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form textarea:focus {
+  outline: none;
+  border: 2px solid #1c7fe2;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1c7fe2;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+  background-color: #0b4da2;
+}
