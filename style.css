@@ -225,3 +225,96 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #0b4da2;
 }
+
+
+/* CSS for Personal Portfolio Template with Responsive Design */
+@media screen and (max-width: 768px) {
+  /* Mobile Styles */
+  header {
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+
+  .hero-text {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .services ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services li {
+    margin: 10px 0;
+  }
+
+  .about-text {
+    font-size: 18px;
+  }
+
+  form {
+    padding: 20px;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    font-size: 14px;
+  }
+
+  form button[type="submit"] {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* Desktop Styles */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+  }
+
+  nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  nav li {
+    margin-left: 20px;
+  }
+
+  .hero-text {
+    font-size: 72px;
+    margin-bottom: 60px;
+  }
+
+  .services ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .services li {
+    margin-right: 20px;
+  }
+
+  .about-text {
+    font-size: 24px;
+  }
+
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+}
