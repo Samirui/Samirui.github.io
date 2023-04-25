@@ -182,6 +182,24 @@ form button[type="submit"] {
 form button[type="submit"]:hover {
   background-color: #0b4da2;
 }
+/* video settings */
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
 
 
 /* CSS for Personal Portfolio Template with Responsive Design */
