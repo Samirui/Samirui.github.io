@@ -110,7 +110,7 @@ button[type="submit"] {
 }
 
 .formm {
-opacity: 0.4;
+  background-color: rgba(70, 70, 70, 0.4);
 }
 
 button[type="submit"]:hover {
