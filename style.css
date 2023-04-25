@@ -22,14 +22,18 @@ header {
   color: #fff;
 }
 
+
 header img {
   width: 100px;
   height: 100px;
-  float: center;
-  margin-right: 20px;
+  margin: 0 auto;
+  display: block;
   border-radius: 20%;
   position: absolute;
+  left: 0;
+  right: 0;
 }
+
 
 
 nav ul {
