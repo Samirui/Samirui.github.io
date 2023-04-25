@@ -109,6 +109,10 @@ button[type="submit"] {
   cursor: pointer;
 }
 
+.formm {
+opacity: 0.4;
+}
+
 button[type="submit"]:hover {
   background-color: #ccc;
 }
@@ -118,6 +122,7 @@ footer {
   text-align: center;
   background-color: #333;
   color: #fff;
+  opacity: 0.4;
 }
 
 
